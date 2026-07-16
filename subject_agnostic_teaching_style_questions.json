@@ -1,0 +1,135 @@
+{
+    "experiment_title": "LLM Regional Teaching Style Preferences - Subject-Agnostic Higher Education Focus",
+    "categories": [
+        {
+            "category": "Direct Instruction vs. Guided Discovery",
+            "description": "Evaluates whether the model defaults to a lecture-style, direct delivery of facts (Instructivist) or prompts critical thinking, self-reflection, and scaffolding (Constructivist/Socratic).",
+            "questions": [
+                {
+                    "id": "Q01",
+                    "prompt": "Teach me how to formulate a strong, testable hypothesis for a research proposal."
+                },
+                {
+                    "id": "Q02",
+                    "prompt": "I want to understand how to systematically review literature for an academic paper. What steps should I follow?"
+                },
+                {
+                    "id": "Q03",
+                    "prompt": "Explain the difference between qualitative and quantitative research paradigms to an undergraduate class."
+                },
+                {
+                    "id": "Q04",
+                    "prompt": "How do I choose the correct methodology when my research question has conflicting variables?"
+                },
+                {
+                    "id": "Q05",
+                    "prompt": "Explain the concept of academic integrity and plagiarism to incoming university students."
+                }
+            ]
+        },
+        {
+            "category": "Feedback and Error Correction",
+            "description": "Assesses the model's feedback persona: Is it blunt, direct, corrective, or does it use indirect phrasing, polite mitigation (hedging), and encouraging reinforcement?",
+            "questions": [
+                {
+                    "id": "Q06",
+                    "prompt": "My thesis argument is: 'Technology has completely ruined face-to-face communication.' Critique the academic rigor of my thesis statement."
+                },
+                {
+                    "id": "Q07",
+                    "prompt": "Review this statement: 'A small sample size of 15 participants invalidates any research findings.' Correct my understanding of sample size limitations."
+                },
+                {
+                    "id": "Q08",
+                    "prompt": "I wrote this paragraph: 'The study was done by Smith (2020) and he found some interesting things about students. They didn't like online classes.' Fix the academic tone and grammar of this text."
+                },
+                {
+                    "id": "Q09",
+                    "prompt": "I believe that correlation always implies a direct causal relationship if the p-value is extremely low (e.g., p < 0.001). Correct my understanding."
+                },
+                {
+                    "id": "Q10",
+                    "prompt": "Review my definition: 'Critical thinking means arguing with other people's ideas until your point of view is accepted.' Critique and correct this definition."
+                }
+            ]
+        },
+        {
+            "category": "Information Structuring and Lesson Planning",
+            "description": "Examines how the model naturally organizes information, curriculum, or syllabus content (e.g., highly hierarchical and rigid vs. modular and discussion-led).",
+            "questions": [
+                {
+                    "id": "Q11",
+                    "prompt": "Design a 1-hour workshop plan aimed at teaching university students how to write an abstract."
+                },
+                {
+                    "id": "Q12",
+                    "prompt": "Structure a syllabus module on 'Ethics in Modern Research' for an upper-level undergraduate course."
+                },
+                {
+                    "id": "Q13",
+                    "prompt": "Create an outline for a 15-minute presentation defending a thesis to a faculty committee."
+                },
+                {
+                    "id": "Q14",
+                    "prompt": "Draft a rubric that evaluates a student's oral presentation skills in a seminar setting."
+                },
+                {
+                    "id": "Q15",
+                    "prompt": "Outline a comparative lesson plan comparing a primary source analysis with a secondary source synthesis."
+                }
+            ]
+        },
+        {
+            "category": "Academic Tone, Formality and Hedging",
+            "description": "Measures the balance between conversational accessibility and academic distance/formality, as well as the level of hedging ('it could be argued', 'perhaps', 'tends to').",
+            "questions": [
+                {
+                    "id": "Q16",
+                    "prompt": "Draft an email to a university professor requesting that they serve as an academic advisor for a master's project."
+                },
+                {
+                    "id": "Q17",
+                    "prompt": "Summarize the general challenges that adult learners face when returning to higher education after a long break."
+                },
+                {
+                    "id": "Q18",
+                    "prompt": "Explain why peer-reviewed journals are prioritized over textbooks in higher education research."
+                },
+                {
+                    "id": "Q19",
+                    "prompt": "Write an encouraging introductory post for an online university forum welcome thread."
+                },
+                {
+                    "id": "Q20",
+                    "prompt": "Discuss the potential biases that can occur when researchers rely solely on self-reported data."
+                }
+            ]
+        },
+        {
+            "category": "Analogy, Metaphor and Contextualization",
+            "description": "Analyzes how the model grounds abstract academic concepts (theory, methodology, peer-review) using relatable analogies and metaphors to aid student comprehension.",
+            "questions": [
+                {
+                    "id": "Q21",
+                    "prompt": "Use an everyday metaphor to explain the difference between a theoretical framework and a conceptual framework."
+                },
+                {
+                    "id": "Q22",
+                    "prompt": "Give me an analogy to help undergraduate students understand the concept of 'cognitive load' during studying."
+                },
+                {
+                    "id": "Q23",
+                    "prompt": "How would you describe the peer-review process to someone who has never been in academia, using a non-academic analogy?"
+                },
+                {
+                    "id": "Q24",
+                    "prompt": "Explain the concept of 'bias' in research selection using a simple, real-world metaphor."
+                },
+                {
+                    "id": "Q25",
+                    "prompt": "Compare the structure of a standard five-chapter academic thesis to a common non-academic journey or experience."
+                }
+            ]
+        }
+    ]
+}
